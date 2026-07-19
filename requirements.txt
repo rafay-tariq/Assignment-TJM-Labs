@@ -1,0 +1,15 @@
+# Core agent framework
+langgraph>=0.2.0,<0.3.0
+langchain-core>=0.2.38,<0.3.0
+
+# LLM provider (optional at runtime: the agent falls back to a deterministic
+# engine when ANTHROPIC_API_KEY is not set, but the package must be installed
+# for the LLM path).
+langchain-anthropic>=0.1.23,<0.2.0
+
+# HTTP + config
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# Tests
+pytest>=7.4.0
